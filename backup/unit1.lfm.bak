@@ -1,0 +1,116 @@
+object Title: TTitle
+  Left = 303
+  Height = 469
+  Top = 178
+  Width = 892
+  AutoSize = True
+  Caption = 'Grepo Tool 1.0 (Beta)'
+  ClientHeight = 469
+  ClientWidth = 892
+  LCLVersion = '1.4.0.4'
+  object StaticText1: TStaticText
+    Left = 203
+    Height = 32
+    Top = 8
+    Width = 566
+    Caption = 'GUI Based Repository Automation Tool for Google Repo'
+    Font.Height = -19
+    Font.Name = 'Sans'
+    OnClick = StaticText1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object ListView1: TListView
+    Left = 16
+    Height = 283
+    Top = 133
+    Width = 168
+    Columns = <>
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 112
+    Width = 140
+    Caption = 'Repositories Cloned:'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 36
+    Height = 38
+    Top = 48
+    Width = 120
+    Caption = 'Open Folder'
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 528
+    Height = 40
+    Top = 46
+    Width = 120
+    Caption = 'Clone Repo'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 203
+    Height = 40
+    Top = 48
+    Width = 112
+    Caption = 'Terminal'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object TreeView1: TTreeView
+    Left = 192
+    Height = 283
+    Top = 133
+    Width = 631
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 376
+    Height = 40
+    Top = 48
+    Width = 112
+    Caption = 'Repo Sync'
+    OnClick = Button4Click
+    TabOrder = 6
+  end
+  object AboutBtn: TButton
+    Left = 704
+    Height = 38
+    Top = 48
+    Width = 94
+    Caption = 'About'
+    OnClick = AboutBtnClick
+    TabOrder = 7
+  end
+  object Button6: TButton
+    Left = 624
+    Height = 37
+    Top = 416
+    Width = 193
+    Caption = 'Click Here to See Logs'
+    OnClick = Button6Click
+    TabOrder = 8
+  end
+  object Label2: TLabel
+    Left = 808
+    Height = 17
+    Top = 8
+    Width = 74
+    Caption = 'Version 1.0'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 192
+    Height = 17
+    Top = 112
+    Width = 89
+    Caption = 'File Explorer:'
+    ParentColor = False
+  end
+end
